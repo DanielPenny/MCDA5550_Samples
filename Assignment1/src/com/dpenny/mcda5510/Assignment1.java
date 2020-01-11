@@ -8,7 +8,7 @@ import com.dpenny.mcda5510.connect.MySQLJDBCConnection;
 import com.dpenny.mcda5510.dao.MySQLAccess;
 import com.dpenny.mcda5510.entity.Transaction;
 
-public class Assignment2 {
+public class Assignment1 {
 
 	public static Connection single_instance;
 
