@@ -1,0 +1,8 @@
+ID,RefID,alias,Catogory,Param1,Param2,Param3,Param4,Param5,Param6,Param7,Param8,Param9,Param10,Param11,Param12,Param13,Hour,Minute,Param14,Param15,Param16,Param17,Param18,Data,Comments,Subject Number,Check
+A3715805,423,51629727,8,,,POINT,493464,,Data1,Data4,CYCLE,1,Data3,1402,,,6001,,,m/s,,,,,Data1,Test Data 4,80
+A2688698,340,70060036,36,,,POINT,122935,,Data1,Data5,,1,Data9,6099,,,9001,,,m/s,,,,,Data8,Test Data 69,14
+A1931877,969,75061592,194,,,POINT,871148,,Data3,Data3,,,Data9,4515,,,,,,m/s,,,,six,Data6,Test Data 67,45
+A4587971,313,6673719,145,,,POINT,990210,,Data6,Data7,CYCLE,1,Data5,9020,,,,,,m/s,,,,six,Data3,Test Data 58,68
+A7045680,681,58385111,204,,,POINT,150865,,Data3,Data5,CYCLE,1,Data9,1880,,H,,,,m/s,,,,five,Data2,Test Data 37,57
+A7569103,653,66140187,219,,,POINT,530931,,Data3,Data7,,1,Data5,1159,,H,,,,m/s,,,,two,Data7,Test Data 35,75
+A8309839,25,87791152,192,,,POINT,263312,,Data9,Data4,CYCLE,,Data2,6898,,H,,,,m/s,,,,,Data4,Test Data 85,12

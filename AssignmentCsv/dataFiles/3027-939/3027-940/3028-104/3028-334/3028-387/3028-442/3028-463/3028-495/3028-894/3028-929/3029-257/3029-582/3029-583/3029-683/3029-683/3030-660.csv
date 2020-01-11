@@ -1,0 +1,18 @@
+ID,RefID,alias,Catogory,Param1,Param2,Param3,Param4,Param5,Param6,Param7,Param8,Param9,Param10,Param11,Param12,Param13,Hour,Minute,Param14,Param15,Param16,Param17,Param18,Data,Comments,Subject Number,Check
+A4960242,928,13715476,51,,,POINT,920157,,Data2,Data9,,,Data7,5784,,,,,,m/s,,,,six,Data4,Test Data 49,46
+A4928839,679,40788734,146,,,POINT,410270,,Data9,Data8,CYCLE,,Data7,8645,,,9001,,,m/s,,,,five,Data8,Test Data 48,90
+A1957754,522,88279897,101,,,POINT,645520,,Data5,Data5,,,Data4,881,,H,0,,,m/s,,,,seven,Data4,Test Data 39,65
+A5592142,382,71439218,129,,,POINT,941666,,Data3,Data6,CYCLE,1,Data2,5837,,H,9001,,,m/s,,,,five,Data7,Test Data 57,95
+A4748004,723,45341199,219,,,POINT,863377,,Data4,Data2,,,Data1,6612,,H,6001,,,m/s,,,,five,Data2,Test Data 58,9
+A4552857,551,93607949,247,,,POINT,115207,,Data3,Data8,CYCLE,,Data3,9362,,,6001,,,m/s,,,,,Data9,Test Data 21,2
+A2376722,728,64763732,141,,,POINT,961007,,Data2,Data1,CYCLE,1,Data4,8138,,,UNSPECIFIED,,,m/s,,,,four,Data5,Test Data 31,6
+A1381651,215,73061562,120,,,POINT,59185,,Data9,Data6,,1,Data7,7693,,,9001,,,m/s,,,,four,Data4,Test Data 83,95
+A8932411,774,76045115,219,,,POINT,455073,,Data2,Data2,,1,Data3,1493,,,,,,m/s,,,,,Data3,Test Data 43,87
+A9357183,323,22902666,170,,,POINT,149651,,Data1,Data4,,,Data2,8748,,,9001,,,m/s,,,,zero,Data3,Test Data 70,35
+A2463668,785,55813337,175,,,POINT,302323,,Data7,Data6,,1,Data8,3218,,,0,,,m/s,,,,six,Data5,Test Data 39,94
+A8072061,111,96500486,127,,,POINT,189934,,Data1,Data2,,1,Data7,9446,,H,,,,m/s,,,,,Data5,Test Data 39,27
+A6605645,738,73897622,228,,,POINT,293699,,Data8,Data1,,1,Data3,5977,,H,6001,,,m/s,,,,two,Data5,Test Data 47,71
+A5361256,910,27451634,215,,,POINT,581185,,Data4,Data7,,1,Data1,1507,,,UNSPECIFIED,,,m/s,,,,one,Data9,Test Data 71,10
+A4458893,154,96304007,42,,,POINT,411254,,Data5,Data6,,1,Data2,1464,,H,0,,,m/s,,,,seven,Data4,Test Data 57,79
+A8864633,421,69049525,233,,,POINT,234590,,Data8,Data5,,1,Data6,2171,,H,9001,,,m/s,,,,,Data3,Test Data 76,35
+A1348670,285,86500252,85,,,POINT,618280,,Data9,Data1,CYCLE,1,Data8,7992,,H,,,,m/s,,,,,Data5,Test Data 38,55

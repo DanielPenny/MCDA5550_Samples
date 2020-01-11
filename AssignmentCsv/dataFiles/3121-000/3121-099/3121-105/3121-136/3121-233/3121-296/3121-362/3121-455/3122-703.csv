@@ -1,0 +1,5 @@
+ID,RefID,alias,Catogory,Param1,Param2,Param3,Param4,Param5,Param6,Param7,Param8,Param9,Param10,Param11,Param12,Param13,Hour,Minute,Param14,Param15,Param16,Param17,Param18,Data,Comments,Subject Number,Check
+A7525438,648,7566841,16,,,POINT,813726,,Data6,Data6,,,Data2,8585,,,0,,,m/s,,,,six,Data2,Test Data 62,63
+A5709705,481,13925711,81,,,POINT,312839,,Data4,Data9,,1,Data9,6045,,H,,,,m/s,,,,two,Data1,Test Data 55,96
+A7132549,32,78681501,215,,,POINT,721072,,Data1,Data9,,1,Data4,1271,,H,0,,,m/s,,,,,Data7,Test Data 75,67
+A1678256,623,35283061,41,,,POINT,736938,,Data8,Data4,,,Data2,5237,,,9001,,,m/s,,,,zero,Data9,Test Data 22,84

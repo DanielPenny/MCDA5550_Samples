@@ -1,0 +1,18 @@
+ID,RefID,alias,Catogory,Param1,Param2,Param3,Param4,Param5,Param6,Param7,Param8,Param9,Param10,Param11,Param12,Param13,Hour,Minute,Param14,Param15,Param16,Param17,Param18,Data,Comments,Subject Number,Check
+A9717376,73,94567389,239,,,POINT,198111,,Data4,Data3,,,Data8,5277,,,9001,,,m/s,,,,seven,Data1,Test Data 72,77
+A6015172,897,41831012,29,,,POINT,785776,,Data1,Data1,CYCLE,1,Data7,7879,,H,0,,,m/s,,,,,Data3,Test Data 83,85
+A7426535,169,48993964,248,,,POINT,386241,,Data5,Data4,,,Data4,2091,,H,9001,,,m/s,,,,six,Data5,Test Data 98,83
+A5249918,7,80875885,250,,,POINT,395554,,Data8,Data7,,1,Data3,8819,,,,,,m/s,,,,five,Data9,Test Data 38,52
+A6427322,467,34699501,130,,,POINT,388424,,Data9,Data8,CYCLE,1,Data7,9355,,,6001,,,m/s,,,,four,Data3,Test Data 35,93
+A9491040,177,3648144,100,,,POINT,964236,,Data5,Data4,CYCLE,,Data2,5130,,H,9001,,,m/s,,,,two,Data6,Test Data 35,12
+A337117,878,7310909,204,,,POINT,516752,,Data2,Data1,,1,Data8,8891,,H,,,,m/s,,,,six,Data1,Test Data 35,33
+A9059248,857,93265270,42,,,POINT,602782,,Data9,Data6,,,Data1,3409,,H,UNSPECIFIED,,,m/s,,,,,Data3,Test Data 46,84
+A2488568,528,62738355,240,,,POINT,731126,,Data1,Data3,CYCLE,1,Data1,5664,,H,,,,m/s,,,,,Data1,Test Data 82,84
+A5891131,170,86583289,68,,,POINT,51145,,Data5,Data5,CYCLE,1,Data8,301,,,0,,,m/s,,,,,Data9,Test Data 98,16
+A2077049,237,4702938,227,,,POINT,461400,,Data6,Data9,,,Data9,7457,,,,,,m/s,,,,,Data6,Test Data 49,19
+A6244838,683,23737973,7,,,POINT,559716,,Data9,Data3,,1,Data8,8167,,,6001,,,m/s,,,,,Data6,Test Data 74,39
+A6317556,637,60772752,149,,,POINT,980038,,Data7,Data2,,1,Data8,7168,,H,,,,m/s,,,,,Data4,Test Data 82,88
+A6013229,177,16324072,106,,,POINT,812179,,Data8,Data3,,,Data3,5683,,,6001,,,m/s,,,,seven,Data9,Test Data 15,46
+A4482531,566,99464842,207,,,POINT,335329,,Data2,Data3,,1,Data2,5058,,H,,,,m/s,,,,three,Data1,Test Data 17,37
+A9486112,65,5677582,56,,,POINT,126540,,Data9,Data7,,1,Data6,8159,,H,UNSPECIFIED,,,m/s,,,,three,Data4,Test Data 14,24
+A5704032,588,71295029,195,,,POINT,113748,,Data2,Data1,,1,Data5,5532,,,0,,,m/s,,,,,Data7,Test Data 86,25
