@@ -13,7 +13,7 @@ public class ConnectionFactory {
 			MySQLJDBCConnection dbConnection = new MySQLJDBCConnection();
 			return dbConnection.setupConnection();
 
-		} else if (connectionType.equalsIgnoreCase("Mock")) {
+		} else if (connectionType.equalsIgnoreCase("fake")) {
 			return new MockConnection();
 
 		} else if (connectionType.equalsIgnoreCase("CSSMUCA")) {

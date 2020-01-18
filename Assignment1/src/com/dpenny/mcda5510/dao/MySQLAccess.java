@@ -27,7 +27,7 @@ public class MySQLAccess {
 		try {
 			// Statements allow to issue SQL queries to the database
 			statement = connection.createStatement();
-			resultSet = statement.executeQuery("select * from transactoins.transaction");
+			resultSet = statement.executeQuery("select * from transaction.transaction");
 			results = createTrxns(resultSet);
 
 			if (resultSet != null) {

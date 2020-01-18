@@ -29,6 +29,8 @@ public class Assignment1 {
 			ConnectionFactory factory = new ConnectionFactory();
 			Connection connection = factory.getConnection("mySQLJDBC");
 
+			//Connection connection = factory.getConnection("fake");
+			
 			Collection<Transaction> trxns = dao.getAllTransactions(connection);
 
 			for (Transaction trxn : trxns) {

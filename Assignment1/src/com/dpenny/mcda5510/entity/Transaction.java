@@ -17,6 +17,7 @@ public class Transaction{
 	public String getNameOnCard() {
 		return nameOnCard;
 	}
+	
 	public void setNameOnCard(String nameOnCard) {
 		this.nameOnCard = nameOnCard;
 	}	
