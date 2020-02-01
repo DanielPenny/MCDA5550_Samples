@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions targetNamespace="http://entity.mcda5550.dpenny.com" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:impl="http://entity.mcda5550.dpenny.com" xmlns:intf="http://entity.mcda5550.dpenny.com" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<!--WSDL created by Apache Axis version: 1.4
+Built on Apr 22, 2006 (06:55:48 PDT)-->
+ <wsdl:types>
+  <schema elementFormDefault="qualified" targetNamespace="http://entity.mcda5550.dpenny.com" xmlns="http://www.w3.org/2001/XMLSchema">
+   <element name="toString">
+    <complexType/>
+   </element>
+   <element name="toStringResponse">
+    <complexType>
+     <sequence>
+      <element name="toStringReturn" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="setCardNumber">
+    <complexType>
+     <sequence>
+      <element name="cardNumber" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="setCardNumberResponse">
+    <complexType/>
+   </element>
+   <element name="setNameOnCard">
+    <complexType>
+     <sequence>
+      <element name="nameOnCard" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="setNameOnCardResponse">
+    <complexType/>
+   </element>
+   <element name="getNameOnCard">
+    <complexType/>
+   </element>
+   <element name="getNameOnCardResponse">
+    <complexType>
+     <sequence>
+      <element name="getNameOnCardReturn" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="getCardNumber">
+    <complexType/>
+   </element>
+   <element name="getCardNumberResponse">
+    <complexType>
+     <sequence>
+      <element name="getCardNumberReturn" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+  </schema>
+ </wsdl:types>
+
+   <wsdl:message name="toStringRequest">
+
+      <wsdl:part element="impl:toString" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="setCardNumberResponse">
+
+      <wsdl:part element="impl:setCardNumberResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="setNameOnCardResponse">
+
+      <wsdl:part element="impl:setNameOnCardResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="getCardNumberResponse">
+
+      <wsdl:part element="impl:getCardNumberResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="toStringResponse">
+
+      <wsdl:part element="impl:toStringResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="getCardNumberRequest">
+
+      <wsdl:part element="impl:getCardNumber" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="setCardNumberRequest">
+
+      <wsdl:part element="impl:setCardNumber" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="getNameOnCardResponse">
+
+      <wsdl:part element="impl:getNameOnCardResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="setNameOnCardRequest">
+
+      <wsdl:part element="impl:setNameOnCard" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="getNameOnCardRequest">
+
+      <wsdl:part element="impl:getNameOnCard" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:portType name="Transaction">
+
+      <wsdl:operation name="toString">
+
+         <wsdl:input message="impl:toStringRequest" name="toStringRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:toStringResponse" name="toStringResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="setCardNumber">
+
+         <wsdl:input message="impl:setCardNumberRequest" name="setCardNumberRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:setCardNumberResponse" name="setCardNumberResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="setNameOnCard">
+
+         <wsdl:input message="impl:setNameOnCardRequest" name="setNameOnCardRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:setNameOnCardResponse" name="setNameOnCardResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="getNameOnCard">
+
+         <wsdl:input message="impl:getNameOnCardRequest" name="getNameOnCardRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:getNameOnCardResponse" name="getNameOnCardResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="getCardNumber">
+
+         <wsdl:input message="impl:getCardNumberRequest" name="getCardNumberRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:getCardNumberResponse" name="getCardNumberResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:portType>
+
+   <wsdl:binding name="TransactionSoapBinding" type="impl:Transaction">
+
+      <wsdlsoap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+
+      <wsdl:operation name="toString">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="toStringRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="toStringResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="setCardNumber">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="setCardNumberRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="setCardNumberResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="setNameOnCard">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="setNameOnCardRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="setNameOnCardResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="getNameOnCard">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="getNameOnCardRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="getNameOnCardResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="getCardNumber">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="getCardNumberRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="getCardNumberResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:binding>
+
+   <wsdl:service name="TransactionService">
+
+      <wsdl:port binding="impl:TransactionSoapBinding" name="Transaction">
+
+         <wsdlsoap:address location="http://localhost:8080/Assignment2/services/Transaction"/>
+
+      </wsdl:port>
+
+   </wsdl:service>
+
+</wsdl:definitions>

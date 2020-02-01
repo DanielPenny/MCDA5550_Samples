@@ -1,0 +1,38 @@
+<!-- Use this file to deploy some handlers/chains and services      -->
+<!-- Two ways to do this:                                           -->
+<!--   java org.apache.axis.client.AdminClient deploy.wsdd          -->
+<!--      after the axis server is running                          -->
+<!-- or                                                             -->
+<!--   java org.apache.axis.utils.Admin client|server deploy.wsdd   -->
+<!--      from the same directory that the Axis engine runs         -->
+
+<deployment
+    xmlns="http://xml.apache.org/axis/wsdd/"
+    xmlns:java="http://xml.apache.org/axis/wsdd/providers/java">
+
+  <!-- Services from TransactionService WSDL service -->
+
+  <service name="Transaction" provider="java:RPC" style="wrapped" use="literal">
+      <parameter name="wsdlTargetNamespace" value="http://entity.mcda5550.dpenny.com"/>
+      <parameter name="wsdlServiceElement" value="TransactionService"/>
+      <parameter name="schemaQualified" value="http://entity.mcda5550.dpenny.com"/>
+      <parameter name="wsdlServicePort" value="Transaction"/>
+      <parameter name="className" value="com.dpenny.mcda5550.entity.TransactionSoapBindingImpl"/>
+      <parameter name="wsdlPortType" value="Transaction"/>
+      <parameter name="typeMappingVersion" value="1.2"/>
+      <operation name="toString" qname="operNS:toString" xmlns:operNS="http://entity.mcda5550.dpenny.com" returnQName="retNS:toStringReturn" xmlns:retNS="http://entity.mcda5550.dpenny.com" returnType="rtns:string" xmlns:rtns="http://www.w3.org/2001/XMLSchema" soapAction="" >
+      </operation>
+      <operation name="setCardNumber" qname="operNS:setCardNumber" xmlns:operNS="http://entity.mcda5550.dpenny.com" soapAction="" >
+        <parameter qname="pns:cardNumber" xmlns:pns="http://entity.mcda5550.dpenny.com" type="tns:string" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+      </operation>
+      <operation name="setNameOnCard" qname="operNS:setNameOnCard" xmlns:operNS="http://entity.mcda5550.dpenny.com" soapAction="" >
+        <parameter qname="pns:nameOnCard" xmlns:pns="http://entity.mcda5550.dpenny.com" type="tns:string" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+      </operation>
+      <operation name="getNameOnCard" qname="operNS:getNameOnCard" xmlns:operNS="http://entity.mcda5550.dpenny.com" returnQName="retNS:getNameOnCardReturn" xmlns:retNS="http://entity.mcda5550.dpenny.com" returnType="rtns:string" xmlns:rtns="http://www.w3.org/2001/XMLSchema" soapAction="" >
+      </operation>
+      <operation name="getCardNumber" qname="operNS:getCardNumber" xmlns:operNS="http://entity.mcda5550.dpenny.com" returnQName="retNS:getCardNumberReturn" xmlns:retNS="http://entity.mcda5550.dpenny.com" returnType="rtns:string" xmlns:rtns="http://www.w3.org/2001/XMLSchema" soapAction="" >
+      </operation>
+      <parameter name="allowedMethods" value="setCardNumber getCardNumber setNameOnCard toString getNameOnCard"/>
+
+  </service>
+</deployment>
