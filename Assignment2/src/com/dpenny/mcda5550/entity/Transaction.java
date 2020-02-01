@@ -15,7 +15,7 @@ public class Transaction{
 	}
 	
 	public String getNameOnCard() {
-		return nameOnCard;
+		return "TESTING";
 	}
 	
 	public void setNameOnCard(String nameOnCard) {
